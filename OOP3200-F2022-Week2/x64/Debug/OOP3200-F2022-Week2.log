@@ -1,2 +1,6 @@
-﻿  main.cpp
-  OOP3200-F2022-Week2.vcxproj -> C:\Users\tsili\OneDrive\Desktop\Durham\OOP3200\OOP3200-F2022-Week3\x64\Debug\OOP3200-F2022-Week2.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (OOP3200-F2022-Week2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+  Person.cpp
+  Vector2.cpp
+  Generating Code...
+  OOP3200-F2022-Week2.vcxproj -> C:\Users\tsili\OneDrive\Desktop\Durham\OOP3200\OOP3200-F2022-Week3\x64\Debug\OOP3200-F2022-Week3.exe
