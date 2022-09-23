@@ -11,4 +11,12 @@ int main()
     std::cout << (A + B).to_string() << std::endl;
     std::cout << (C - A).to_string() << std::endl;
     std::cout << (C * A).to_string() << std::endl;
+
+    std::cout << Vector2::Distance(A, B) << std::endl;
+
+    std::cout << A << std::endl;
+
+    std::cin >> B;
+
+    std::cout << B;
 }
