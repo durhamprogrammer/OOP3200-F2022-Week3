@@ -49,6 +49,16 @@ Vector2 Vector2::operator*(const Vector2& rhs) const
 	return temp;
 }
 
+// Hints for the first one
+Vector2 Vector2::operator*(const float scaler) const
+{
+}
+
+// Hints for the second one
+Vector2 operator*(const float scaler, const Vector2& rhs)
+{
+}
+
 std::string Vector2::to_string() const
 {
 	std::stringstream stream;
@@ -92,6 +102,8 @@ float Vector2::Distance(const Vector2& vectorA, const Vector2& vectorB)
 	// return the result of the pythagorean formula
 	return sqrt((deltaX * deltaX) + (deltaY * deltaY));
 }
+
+
 
 std::ostream& operator<<(std::ostream& out, const Vector2& rhs)
 {
