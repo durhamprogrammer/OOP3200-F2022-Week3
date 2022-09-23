@@ -16,9 +16,15 @@
     <ClCompile Include="Person.cpp">
       <Filter>objects</Filter>
     </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
       <Filter>objects</Filter>
     </ClInclude>
   </ItemGroup>
